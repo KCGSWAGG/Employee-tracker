@@ -14,8 +14,11 @@ inquirer
       'add an employee', 
       'update an employee role'],
     },
+    {
+      type ''
+    }
  
   ])
   .then((response) =>
-    response.confirm === response.password
+    response.confirm === response.choices
   );

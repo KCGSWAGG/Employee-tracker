@@ -8,6 +8,12 @@ CREATE TABLE departments (
     department_name TEXT NOT NULL
 )
 
-CREATE TABLE roles (
-    
+CREATE TABLE employees (
+    id INT NOT NULL,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    job_title TEXT NOT NULL,
+    departments TEXT NOT NULL,
+    salaries INT NOT NULL,
+    manager TEXT NOT NULL
 )
